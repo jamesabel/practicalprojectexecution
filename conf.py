@@ -170,4 +170,4 @@ texinfo_documents = [
 
 # jca
 # PDF
-pdf_documents = [('index', u'documentation', project, author), ]
+pdf_documents = [('index', u'ppe', project, author), ]

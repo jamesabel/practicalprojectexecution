@@ -16,6 +16,8 @@ Introduction
    :width: 25%
 
 
-"Everything should be made as simple as possible, but not simpler."
+**"Everything should be made as simple as possible, but not simpler."**
+=======================================================================
+
 
 Practical
