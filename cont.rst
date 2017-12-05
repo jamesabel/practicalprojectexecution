@@ -34,6 +34,11 @@ Automated Testing is important for several reasons:
 .. image:: _static/cost_to_fix_defects_by_phase.jpg
 `Error Cost Escalation Through the Project Life Cycle <https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100036670.pdf>`_
 
+Agile also reduces Requirements Defects by implementing short cycle times.  While Agile does not address the initial
+requirements specification, in reality these are often
+`Leap-Of-Faith Assumptions <http://www.kimhartman.se/wp-content/uploads/2013/10/the-lean-startup-summary.pdf>`_,
+and these hypotheses are tested quickly in the agile environment.
+
 Code Coverage
 -------------
 
