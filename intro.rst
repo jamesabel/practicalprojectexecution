@@ -20,4 +20,17 @@ Introduction
 =======================================================================
 
 
-Practical
+Practical Project Execution
+===========================
+
+Projects should be executed in a manner that provides efficiency and predictability.  Several techniques have
+evolved that can work in concert to enable business and technical goals.  In particular, software is well poised
+to take advantage of these techniques:
+
+- Automated Testing
+- Continuous Integration
+- Agile tools and frameworks
+- Scrum project management
+- Continuous feedback
+
+These proven techniques work together enable a good project execution environment.

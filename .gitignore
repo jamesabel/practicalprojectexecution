@@ -157,4 +157,5 @@ venv.bak/
 
 # jca
 _build
-
+auxil
+.idea/

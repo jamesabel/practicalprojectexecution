@@ -1,0 +1,1 @@
+set path=%path%;"C:\Program Files\MiKTeX 2.9\miktex\bin\x64"
