@@ -45,7 +45,7 @@ Code Coverage
 Tests should be written to test features, but code coverage should be measured to find test holes.  In other words,
 create tests to test the product, but don't 'cheat' and only write tests to get better code coverage.  When code
 coverage is low, use the code coverage report to point to areas of your code that you missed.  Then think about the
-product features that are implemented in those lines of code, and test those features.
+product features that are implemented in those lines of code, and test those features.  Also cover corner cases.
 
 While there are more exotic techniques available, simple line code coverage is generally good enough.
 
