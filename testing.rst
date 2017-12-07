@@ -13,6 +13,7 @@ Automated Testing is important for several reasons:
 - Allows defects to be found earlier in the development cycle, when they are less costly
 
 .. image:: _static/cost_to_fix_defects_by_phase.jpg
+
 `Error Cost Escalation Through the Project Life Cycle <https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100036670.pdf>`_
 
 Agile also reduces Requirements Defects by implementing short cycle times.  While Agile does not address the initial
@@ -59,15 +60,17 @@ Testing Levels
 +---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Acceptance Testing  | A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system’s compliance with the business requirements and assess whether it is acceptable for delivery. |
 +---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 `Software Testing Levels <http://softwaretestingfundamentals.com/software-testing-levels/>`_
 
-Code Coverage
--------------
+Test Features but Measure Code Coverage
+---------------------------------------
 
-Tests should be written to test features, but code coverage should be measured to find test holes.  In other words,
+Tests should be written to test **features**, but code coverage should be measured to find test holes.  In other words,
 create tests to test the product, but don't 'cheat' and only write tests to get better code coverage.  When code
 coverage is low, use the code coverage report to point to areas of your code that you missed.  Then think about the
-product features that are implemented in those lines of code, and test those features.
+product features that are implemented in those lines of code, and test those features.  You must also look to test
+`edge cases <https://en.wikipedia.org/wiki/Edge_case>`_.
 
 While there are more exotic techniques available, simple line code coverage is generally good enough.
 
@@ -75,6 +78,14 @@ While there are more exotic techniques available, simple line code coverage is g
 While more coverage is better, often the `ROI greatly diminishes after ~85% <https://image.slidesharecdn.com/ccpragmatic-130603121851-phpapp02/95/pragmatic-code-coverage-27-638.jpg>`_.
 
 .. image:: _static/per_project_coverage.png
+
 `Google code coverage <https://docs.google.com/presentation/d/1god5fDDd1aP6PwhPodOnAZSPpD80lqYDrHhuhyD7Tvg/edit#slide=id.g3f5c82004_99_135>`_
 
+Summary
+-------
 
+- A good test suite enables continuous integration
+- Create tests based on features and edge cases
+- Test at every level (unit, integration, system, acceptance)
+- Measure test coverage by line coverage (>= 80%)
+- Automate whenever possible
