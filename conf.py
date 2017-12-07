@@ -33,6 +33,7 @@
 # ones.
 extensions = ['sphinx.ext.githubpages',
               #'rst2pdf.pdfbuilder'
+              'sphinxcontrib.fulltoc'
               ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -85,7 +86,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+# html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -103,12 +104,15 @@ html_static_path = ['_static']
 #
 # This is required for the alabaster theme
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
-html_sidebars = {
-    '**': [
-        'relations.html',  # needs 'show_related': True theme option to display
-        'searchbox.html',
-    ]
-}
+if False:
+    html_sidebars = {
+        '**': [
+            'about.html',
+            'navigation.html',
+            'relations.html',  # needs 'show_related': True theme option to display
+            'searchbox.html',
+        ]
+    }
 
 
 # -- Options for HTMLHelp output ------------------------------------------
@@ -171,3 +175,5 @@ texinfo_documents = [
 # jca
 # PDF
 pdf_documents = [('index', u'ppe', project, author), ]
+
+html_show_sourcelink = False

@@ -17,11 +17,11 @@ Introduction
 
 
 **"Everything should be made as simple as possible, but not simpler."**
-=======================================================================
+-----------------------------------------------------------------------
 
 
 Practical Project Execution
-===========================
+---------------------------
 
 Projects should be executed in a manner that provides efficiency and predictability.  Several techniques have
 evolved that can work in concert to enable business and technical goals.  In particular, software is well poised
