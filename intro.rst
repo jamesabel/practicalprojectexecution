@@ -23,9 +23,9 @@ Introduction
 Practical Project Execution
 ---------------------------
 
-Projects should be executed in a manner that provides efficiency and predictability.  Several techniques have
-evolved that can work in concert to enable business and technical goals.  In particular, software is well poised
-to take advantage of these techniques:
+Projects should be executed in a manner that provides efficiency and predictability.  Several techniques (best
+practices) have evolved that can work in concert to enable business and technical goals.  In particular, software
+is well poised to take advantage of these techniques:
 
 - Automated Testing
 - Continuous Integration

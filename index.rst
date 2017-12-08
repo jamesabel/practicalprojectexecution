@@ -15,5 +15,8 @@ Practical Project Execution
    intro
    cont
    testing
+   pm
+   communication
+   principles
 
 * :ref:`search`
