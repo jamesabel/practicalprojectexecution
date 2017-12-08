@@ -1,2 +1,2 @@
 
-`Practical Project Execution <https://github.com/jamesabel/practicalprojectexecution/blob/master/intro.rst>`_
+`Practical Project Execution <https://s3-us-west-2.amazonaws.com/practicalprojectexecution/index.html>`_
