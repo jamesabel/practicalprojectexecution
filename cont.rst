@@ -23,6 +23,14 @@ fix), create a new local branch.  Once your development is complete and you have
 will most likely want to run the regression test suite), issue a `pull request`.  This may also trigger
 a code review.  If the pull request is approved, this branch is merged to the main branch (often called `master`).
 
+Large Files
+-----------
+Use `GIT Large File Storage <https://git-lfs.github.com/>`_ for large files such as executables.
+This is so the repo doesn't grow too large and takes too long to clone.
+`Watch this video <https://youtu.be/YQzNfb4IwEY?list=PL7QAN3bnLRocuHOcUZ5Qd2vZ0TOhDE9yp>`_ for
+a description of why and how to use git lfs.  As of this writing `git lfs` isn't integrated into PyCharm so if you're
+using PyCharm and `git lfs` you'll have to resort to the command line for `git lfs` setup.
+
 Summary
 -------
 
