@@ -25,11 +25,16 @@ a code review.  If the pull request is approved, this branch is merged to the ma
 
 Large Files
 -----------
-Use `GIT Large File Storage <https://git-lfs.github.com/>`_ for large files such as executables.
+Use `Git Large File Storage <https://git-lfs.github.com/>`_ for large files such as executables.
 This is so the repo doesn't grow too large and takes too long to clone.
 `Watch this video <https://youtu.be/YQzNfb4IwEY?list=PL7QAN3bnLRocuHOcUZ5Qd2vZ0TOhDE9yp>`_ for
-a description of why and how to use git lfs.  As of this writing `git lfs` isn't integrated into PyCharm so if you're
+a description of why and how to use git lfs.
+`Here is also a git lfs tutorial <https://github.com/git-lfs/git-lfs/wiki/Tutorial>`_.
+As of this writing `git lfs` isn't integrated into PyCharm so if you're
 using PyCharm and `git lfs` you'll have to resort to the command line for `git lfs` setup.
+
+Make sure you have the latest version of git installed from
+`https://git-scm.com/downloads <https://git-scm.com/downloads>`_.
 
 Summary
 -------

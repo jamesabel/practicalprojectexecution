@@ -1,0 +1,2 @@
+
+- write a script to upload to S3
