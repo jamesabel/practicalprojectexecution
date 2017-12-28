@@ -26,16 +26,19 @@ a code review.  If the pull request is approved, this branch is merged to the ma
 Large Files
 -----------
 Use `Git Large File Storage <https://git-lfs.github.com/>`_ for large files such as executables.
-This is so the repo doesn't grow too large and takes too long to clone.  Also, regular github repos have a 100 MB file
+This is so the repo doesn't grow too large and take too long to clone.  Also, regular github repos have a 100 MB file
 size limit.
 `Watch this video <https://youtu.be/YQzNfb4IwEY?list=PL7QAN3bnLRocuHOcUZ5Qd2vZ0TOhDE9yp>`_ for
 a description of why and how to use git lfs.
 `Here is also a git lfs tutorial <https://github.com/git-lfs/git-lfs/wiki/Tutorial>`_.
-As of this writing `git lfs` setup isn't integrated into PyCharm so if you're
-using PyCharm and `git lfs` you'll have to resort to the command line for `git lfs` setup.
+As of this writing git lfs setup isn't integrated into PyCharm so if you're
+using PyCharm and git lfs, you'll have to resort to the command line for git lfs setup.
 
-Make sure you have the latest version of git installed from `https://git-scm.com/downloads <https://git-scm.com/downloads>`_.
-Follow the proper order of steps to add `git lfs` to your repo:
+Make sure you:
+
+- Have the latest version of git installed from `https://git-scm.com/downloads <https://git-scm.com/downloads>`_.  Earlier versions of git may not support git lfs.
+- Commit and push all pending files prior to adding git lfs.
+- Follow the proper order of steps to add git lfs to your repo:
 
 .. code-block:: batch
 
@@ -43,7 +46,7 @@ Follow the proper order of steps to add `git lfs` to your repo:
    git lfs track "my_large_files/*.*"
    git add .gitattributes
    REM create your large files now
-   git add my_large_files/big_executable.exe
+   git add my_large_files\big_executable.exe
    REM you can now commit files as usual
    git commit -m "add big exe"
    git push
