@@ -34,18 +34,20 @@ a description of why and how to use git lfs.
 As of this writing `git lfs` setup isn't integrated into PyCharm so if you're
 using PyCharm and `git lfs` you'll have to resort to the command line for `git lfs` setup.
 
-Make sure you have the latest version of git installed from
-`https://git-scm.com/downloads <https://git-scm.com/downloads>`_.  Also make sure you follow the proper order of steps
-to add `git lfs` to your repo, e.g. do these before you create the new large files:
+Make sure you have the latest version of git installed from `https://git-scm.com/downloads <https://git-scm.com/downloads>`_.
+Follow the proper order of steps to add `git lfs` to your repo:
 
 .. code-block:: batch
-    git lfs install
-    git lfs track "my_large_files/*.*"
-    git add .gitattributes
-    REM create your large files now
-    git add my_large_files/big_executable.exe
-    git commit -m "add big exe"
-    git push
+
+   git lfs install
+   git lfs track "my_large_files/*.*"
+   git add .gitattributes
+   REM create your large files now
+   git add my_large_files/big_executable.exe
+   REM you can now commit files as usual
+   git commit -m "add big exe"
+   git push
+
 
 Summary
 -------
