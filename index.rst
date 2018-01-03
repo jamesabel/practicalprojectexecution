@@ -17,6 +17,6 @@ Practical Project Execution
    testing
    pm
    communication
-   principles
+   quality
 
 * :ref:`search`
