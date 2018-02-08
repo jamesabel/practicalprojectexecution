@@ -22,6 +22,7 @@ Virtually every new feature is developed in its own code branch.  Before startin
 fix), create a new local branch.  Once your development is complete and you have passed all local tests (you
 will most likely want to run the regression test suite), issue a `pull request`.  This may also trigger
 a code review.  If the pull request is approved, this branch is merged to the main branch (often called `master`).
+Delete branches once they are merged to `master`.
 
 Large Files
 -----------
