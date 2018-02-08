@@ -18,5 +18,6 @@ Practical Project Execution
    pm
    communication
    quality
+   appendix
 
 * :ref:`search`
