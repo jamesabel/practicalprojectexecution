@@ -23,10 +23,18 @@ def main():
             if key.startswith(os.sep):
                 key = key[1:]
             key = key.replace(os.sep, '/')
-            print(file_path, key)
-            # todo: check if changed before bothering to upload
-            s3_resource.meta.client.upload_file(file_path, bucket, key,
-                                                ExtraArgs={'ContentType': 'text/html', 'ACL': "public-read"})
+            if not key.startswith('_sources') and not key.startswith('venv'):
+                extra_args = {'ACL': "public-read"}
+                if key.endswith('.html'):
+                    extra_args['ContentType'] = 'text/html'
+                elif key.endswith('.js'):
+                    extra_args['ContentType'] = 'application/javascript'
+                elif key.endswith('.css'):
+                    extra_args['ContentType'] = 'text/css'
+                print(file_path, key, extra_args)
+                # todo: check if changed before bothering to upload
+                s3_resource.meta.client.upload_file(file_path, bucket, key,
+                                                    ExtraArgs=extra_args)
 
     print('https://s3-us-west-2.amazonaws.com/practicalprojectexecution/index.html')
 
