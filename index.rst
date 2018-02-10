@@ -17,6 +17,7 @@ Practical Project Execution
    testing
    pm
    communication
+   ownership
    quality
    appendix
 

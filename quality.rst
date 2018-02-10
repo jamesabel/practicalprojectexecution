@@ -17,8 +17,8 @@ Originating decades ago at `Toyota <http://www.toyota-global.com/company/toyota_
 technique is valuable to find what actions need to be taken to actually solve a problem.  Like a persistent child,
 the team should ask 'why' a problem happened five times in order for the true actions needed present themselves.
 
-
 Assumed Responsibility
 ----------------------
 When an issue is found the person or team that found the issue assumes the responsibility for the issue. This
 can be either fixing the issue themselves or finding someone else that takes ownership of fixing the issue.
+
